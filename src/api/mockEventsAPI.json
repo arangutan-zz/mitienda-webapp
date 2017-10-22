@@ -1,0 +1,76 @@
+[
+  {
+    "id": "58493db9691ecc0d3da51bfd",
+    "title": "Awesome event",
+    "description": "A bunch of people doing awesome stuff",
+    "startsAt": "2016-12-08T10:46:33.901Z",
+    "capacity": 50,
+    "owner": {
+      "id": "58493e0b691ecc0d3da51bfe",
+      "firstName": "Robert",
+      "lastName": "Rossmann",
+      "email": "robert.rossmann@strv.com",
+      "createdAt": "2016-12-08T10:46:33.901Z",
+      "updatedAt": "2016-12-08T10:46:33.901Z"
+    },
+    "attendees": [
+      {
+        "id": "58493e0b691ecc0d3da51bfe",
+        "firstName": "Robert",
+        "lastName": "Rossmann",
+        "email": "robert.rossmann@strv.com",
+        "createdAt": "2016-12-08T10:46:33.901Z",
+        "updatedAt": "2016-12-08T10:46:33.901Z"
+      }
+    ],
+    "createdAt": "2016-12-08T10:46:33.901Z",
+    "updatedAt": "2016-12-08T10:46:33.901Z"
+  }
+]
+
+
+{
+  "home": {
+    "image":"String",
+    "main_promotions": [
+      {
+        "img": "String",
+        "url": "String",
+        "isInternal": "Boolean",
+      }
+    ],
+    "store_types": [
+      {
+        "name": "String",
+        "subheader": "String",
+        "url": "String",
+        "image": "String"
+      }
+    ],
+    "top_products" : [
+      {
+        "name":"String",
+        "mesure":"String",
+        "resealer":"String",
+        "description":"String",
+        "brand":"String",
+        "total_content":"String",
+        "price":"Number",
+        "promotions":{
+          "price":"Number",
+          "percentage":"Number",
+        }
+      }
+    ],
+    "top_stores" : [
+      {
+        "name":"String",
+        "image":"String",
+        "open_hours":"String, current day",
+        "close_hours":"String, current day",
+        "type":"String"
+      }
+    ],
+
+  }
+}
